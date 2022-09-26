@@ -1,6 +1,7 @@
 import Book from '../../components/book/Book';
 import { useBooks } from '../../hooks/useBooks';
 import { Link } from 'react-router-dom';
+import './Book.css';
 
 function BookList() {
   const { error, loading, books } = useBooks();
